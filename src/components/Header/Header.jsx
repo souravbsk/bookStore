@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className=" bg-gray-200 shadow-xl sticky top-0 z-10 md:px-28 px-8 mx-auto py-3">
       <nav className=" relative md:flex-row gap-4 flex flex-col md:items-center md:justify-between">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <h3 className="font-semibold text-slate-700 text-2xl flex items-center">
             <Lottie className="w-16 h-16" animationData={bookLogo} loop={true}></Lottie>
             B<span className="animate-pulse">o</span>okStore</h3>
