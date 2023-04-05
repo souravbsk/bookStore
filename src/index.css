@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+   @apply max-w-full w-10/12 mx-auto my-16
+}
